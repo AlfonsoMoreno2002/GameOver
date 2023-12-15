@@ -1,0 +1,60 @@
+.cripto {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all .25s;
+    min-height: 200px; /* Establece un tamaño mínimo para todas las tarjetas */
+  }
+  
+  .cripto:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.35);
+  }
+  
+  .cripto .info {
+    color: #D2D2D5;
+  }
+  
+  .cripto h2,
+  .cripto a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .positivo {
+    color: greenyellow;
+  }
+  
+  .negativo {
+    color: red;
+  }
+  
+  .enlace {
+    color: aqua;
+  }
+  
+  /* En tu archivo Cripto.css o donde tengas tus estilos */
+  .comprar-button,
+  .comprar-button2 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .comprar-button:hover {
+    background-color: #6edb07;
+  }
+  
+  .comprar-button2:hover {
+    background-color: #2980b9;
+  }
+  
